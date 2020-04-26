@@ -1,0 +1,9 @@
+version: '3'
+services:
+  schrawler:
+    image: node
+    ports:
+      - 8080
+    volumes:
+      - ./:/app
+    working_dir: /app
