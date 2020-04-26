@@ -1,0 +1,14 @@
+{
+  "name": "schrawler",
+  "version": "0.0.1",
+  "description": "Scraping my kids school website.",
+  "main": "index.js",
+  "repository": "https://github.com/ctrlxc/schrawler.git",
+  "author": "ctrlxc",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "puppeteer": "^3.0.1",
+    "typescript": "^3.8.3"
+  }
+}
