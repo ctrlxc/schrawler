@@ -56,7 +56,7 @@ export default class Dynamo {
       FilterExpression: 'pk = :pk or sk = :sk',
       ExpressionAttributeValues: {
         ':pk': `user#${userId}`,
-        ':sk': `"#meta#${userId}`,
+        ':sk': `user#${userId}`,
       },
     }
 

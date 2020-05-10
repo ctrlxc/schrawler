@@ -40,7 +40,7 @@ export default class Line {
 
   public toSimpleSchoolName(text: string) {
     const suffix = (last: string) => {
-      const suffix: {[key: string]: string} = {'小': '学校', '中': '学校', '高': '高校'}
+      const suffix: {[key: string]: string} = {'小': '学校', '中': '学校', '高': '校'}
       if (last in suffix) {
         return suffix[last]
       }
@@ -104,11 +104,11 @@ export default class Line {
     lastUpdatedAt: number
   }) {
     const simpleSchoolName = this.toSimpleSchoolName(snapshot.schoolName)
-    const updDate = moment.utc(snapshot.lastUpdatedAt).add(9, 'hour').format('YYYY/MM/DD hh:mm:ss') // +9hr = JST
+    const updDate = moment.unix(snapshot.lastUpdatedAt / 1000).utc().add(9, 'hour').format('YYYY/MM/DD HH:mm:ss') // +9hr = JST
 
     const message: LineCore.TextMessage = {
       type: 'text',
-      text: `🏫${simpleSchoolName}\n⏰${updDate}\n📝${snapshot.title}＿\n${snapshot.snippet}\n${snapshot.url}`,
+      text: `🏫${simpleSchoolName}\n⏰${updDate}\n📝${snapshot.title}\n${snapshot.snippet}\n\n${snapshot.url}`,
     }
 
     return this.client.pushMessage(userId, message)

@@ -21,7 +21,8 @@ export default class Webhook {
     if (!signature) {
       signature = headers['X-Line-Signature']
     }
-    else {
+
+    if (!signature) {
       throw Error('no signature')
     }
 

@@ -11,7 +11,7 @@ describe('crawler', () => {
 
     const dynamoConfig = {
       region: 'ap-northeast-1',
-      endpoint: 'http://dynamodb:8000',
+      endpoint: 'http://localhost:8000',
     }
   
     const crawler = new Crawler(lineConfig, dynamoConfig)

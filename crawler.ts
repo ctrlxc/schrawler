@@ -52,6 +52,8 @@ export default class Crawler {
       return
     }
 
+    console.log(`updated: ${schoolName}`)
+
     return Promise.all([
       this.dynamo.crawledSchool(schoolName, snapshot.lastUpdatedAt),
       this.notifyFollowers(schoolName, snapshot),

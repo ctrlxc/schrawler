@@ -6,7 +6,7 @@ describe('dynamo', () => {
   it('follow / unfollow / follower', async () => {
     const dynamo = new Dynamo({
       region: 'ap-northeast-1',
-      endpoint: 'http://dynamodb:8000',
+      endpoint: 'http://localhost:8000',
     })
   
     // first
@@ -82,7 +82,7 @@ describe('dynamo', () => {
   it('toggle school by usre', async () => {
     const dynamo = new Dynamo({
       region: 'ap-northeast-1',
-      endpoint: 'http://dynamodb:8000',
+      endpoint: 'http://localhost:8000',
     })
   
     await dynamo.followSchool({

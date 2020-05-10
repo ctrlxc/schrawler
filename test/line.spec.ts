@@ -96,4 +96,24 @@ describe('line', () => {
 
     expect(schoolName).to.eq('クロマティ高')
   })
+
+  it('notifyUpdated', async () => {
+    const line = new Line({
+      channelAccessToken: 'dummy-channelAccessToken',
+      channelSecret: 'dummy-channelSecret',
+    })
+  
+    const stub = sinon.stub(line.client, 'pushMessage')
+
+    await line.notifyUpdated('123', {
+      schoolName: 'クロマティ高',
+      title: '#title#',
+      snippet: '#snippet#',
+      url: '#url#',
+      lastUpdatedAt: 1583265967000, // 2020-03-04 05:06:07(JST) 
+    })
+
+    expect(stub.getCall(0).args[0]).to.eq('123')
+    expect(stub.getCall(0).args[1]).to.include({text: '🏫クロマティ高校\n⏰2020/03/04 05:06:07\n📝#title#\n#snippet#\n\n#url#'})
+  })
 })
