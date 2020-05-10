@@ -7,8 +7,32 @@
   "author": "ctrlxc",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "tsc": "tsc",
+    "test": "mocha --require ts-node/register \"test/**/*.ts\""
+  },
   "dependencies": {
-    "puppeteer": "^3.0.1",
+    "@line/bot-sdk": "^6.8.4",
+    "aws-lambda": "^1.0.6",
+    "aws-sdk": "^2.668.0",
+    "dotenv": "^8.2.0",
+    "moment": "^2.25.3",
+    "puppeteer": "^3.0.4",
+    "rss-parser": "^3.8.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.51",
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.13.4",
+    "@types/puppeteer": "^2.0.1",
+    "@types/sinon": "^9.0.0",
+    "@types/xml2js": "^0.4.5",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "nodemon": "^2.0.3",
+    "sinon": "^9.0.2",
+    "ts-node": "^8.10.1",
     "typescript": "^3.8.3"
   }
 }

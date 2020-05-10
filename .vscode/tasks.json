@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "tsc",
+            "type": "shell",
+            "command": "docker exec schrawler_node_1 yarn tsc"
+        },
+        {
+            "label": "mocha",
+            "type": "shell",
+            "command": "docker exec -i schrawler_node_1 /bin/bash -c \"./node_modules/mocha/bin/mocha --require ts-node/register -t 1000 --inspect-brk=0.0.0.0:9229 test/**/*.ts\"",
+            "isBackground": true,
+            "problemMatcher": [
+                {
+                    "pattern": [
+                        {
+                            "regexp": ".",
+                            "file": 1,
+                            "location": 2,
+                            "message": 3
+                        }
+                    ],
+                    "background": {
+                        "activeOnStart": true,
+                        "beginsPattern": ".",
+                        "endsPattern": ".",
+                    }
+                }
+            ]
+        },
+        {
+            "label": "debug",
+            "dependsOn": [
+                "tsc",
+                "mocha"
+            ],
+            "dependsOrder": "sequence"
+        }
+    ]
+}

@@ -1,9 +1,19 @@
 version: '3'
 services:
-  schrawler:
+  node:
     image: node
     ports:
-      - 8080
+      - 8080:8080
+      - 9229:9229
     volumes:
       - ./:/app
     working_dir: /app
+    stdin_open: true
+
+  dynamodb:
+    image: amazon/dynamodb-local
+    volumes:
+      - "./data:/home/dynamodblocal/data"
+    ports:
+      - 8000:8000
+    command: -jar DynamoDBLocal.jar -dbPath ./data -sharedDb
