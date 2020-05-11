@@ -65,7 +65,7 @@ export default class Dynamo {
     while(true) {
       if (userData) {
         if (!userData!.LastEvaluatedKey) {
-          return
+          break
         }
   
         params.ExclusiveStartKey = userData!.LastEvaluatedKey
@@ -174,7 +174,7 @@ export default class Dynamo {
     while(true) {
       if (schools) {
         if (!schools!.LastEvaluatedKey) {
-          return
+          break
         }
   
         params.ExclusiveStartKey = schools!.LastEvaluatedKey
