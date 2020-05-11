@@ -102,18 +102,15 @@ describe('line', () => {
       channelAccessToken: 'dummy-channelAccessToken',
       channelSecret: 'dummy-channelSecret',
     })
-  
-    const stub = sinon.stub(line.client, 'pushMessage')
 
-    await line.notifyUpdated('123', {
+    const messages = line.makeUpdateMessage([{
       schoolName: 'クロマティ高',
       title: '#title#',
       snippet: '#snippet#',
       url: '#url#',
-      lastUpdatedAt: 1583265967000, // 2020-03-04 05:06:07(JST) 
-    })
+      pubDate: 1583265967000, // 2020-03-04 05:06:07(JST) 
+    }])
 
-    expect(stub.getCall(0).args[0]).to.eq('123')
-    expect(stub.getCall(0).args[1]).to.include({text: '🏫クロマティ高校\n⏰2020/03/04 05:06:07\n📝#title#\n#snippet#\n\n#url#'})
+    expect(messages[0]).to.include({text: '🏫クロマティ高校\n⏰2020/03/04 05:06:07\n📝#title#\n#snippet#\n\n#url#'})
   })
 })

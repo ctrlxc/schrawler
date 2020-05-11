@@ -96,21 +96,25 @@ export default class Line {
     }
   }
 
-  public async notifyUpdated(userId: string, snapshot: {
+  public makeUpdateMessage(snapshots: {
     schoolName: string,
     title: string,
     snippet: string,
     url: string,
-    lastUpdatedAt: number
-  }) {
-    const simpleSchoolName = this.toSimpleSchoolName(snapshot.schoolName)
-    const updDate = moment.unix(snapshot.lastUpdatedAt / 1000).utc().add(9, 'hour').format('YYYY/MM/DD HH:mm:ss') // +9hr = JST
+    pubDate: number,
+  }[]): LineCore.TextMessage[] {
+    return snapshots.map(snapshot =>{
+      const simpleSchoolName = this.toSimpleSchoolName(snapshot.schoolName)
+      const updDate = moment.unix(snapshot.pubDate / 1000).utc().add(9, 'hour').format('YYYY/MM/DD HH:mm:ss') // +9hr = JST
 
-    const message: LineCore.TextMessage = {
-      type: 'text',
-      text: `🏫${simpleSchoolName}\n⏰${updDate}\n📝${snapshot.title}\n${snapshot.snippet}\n\n${snapshot.url}`,
-    }
+      return {
+        type: 'text',
+        text: `🏫${simpleSchoolName}\n⏰${updDate}\n📝${snapshot.title}\n${snapshot.snippet}\n\n${snapshot.url}`,
+      }
+    })
+  }
 
-    return this.client.pushMessage(userId, message)
+  public async pushMessage(userId: string, messages: LineCore.Message | LineCore.Message[]) {
+    return this.client.pushMessage(userId, messages)
   }
 }

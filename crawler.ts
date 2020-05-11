@@ -11,7 +11,12 @@ export interface Snapshot {
   snippet: string
   url: string
   pubDate: number
+}
+
+
+export interface Snapshots {
   lastUpdatedAt: number
+  items: Snapshot[]
 }
 
 export default class Crawler {
@@ -50,16 +55,16 @@ export default class Crawler {
     try {
       const snapshots = await this.snapshots(schoolName, school)
 
-      if (snapshots.length == 0) {
+      await this.dynamo.crawledSchool(schoolName, snapshots.lastUpdatedAt)
+
+      if (snapshots.items.length == 0) {
         console.log(`no updated: ${schoolName}`)
         return
       }
-  
+
       console.log(`updated: ${schoolName}`)
   
-      await this.dynamo.crawledSchool(schoolName, snapshots[0].lastUpdatedAt)
-
-      return Promise.all(snapshots.map(s => this.notifyFollowers(schoolName, s)))
+      return this.notifyFollowers(schoolName, snapshots)
     }
     catch (e) {
       console.error(e)
@@ -67,7 +72,7 @@ export default class Crawler {
     }
   }
 
-  public async snapshots(schoolName: string, school: DocumentClient.AttributeMap): Promise<Snapshot[]> {
+  public async snapshots(schoolName: string, school: DocumentClient.AttributeMap): Promise<Snapshots> {
     if (!school.rss) {
       throw new Error(`no rss: ${schoolName}`)
     }
@@ -79,21 +84,25 @@ export default class Crawler {
       throw new Error(`no feed: ${school.rss}`)
     }
 
-    return feed.items.map(item => {
+    const items = feed.items.map(item => {
       return {
         schoolName,
         title: item.title!,
         snippet: item.contentSnippet!,
         url: school.url,
         pubDate: Date.parse(item.pubDate!),
-        lastUpdatedAt: Date.parse(feed.lastBuildDate),
       }
     })
     .filter(snapshot => school.lastUpdatedAt < snapshot.pubDate)
     .sort((a, b) => a.pubDate - b.pubDate)
+
+    return {
+      lastUpdatedAt: Date.parse(feed.lastBuildDate),
+      items
+    }
   }
 
-  public async notifyFollowers(schoolName: string, snapshot: Snapshot) {
+  public async notifyFollowers(schoolName: string, snapshots: Snapshots) {
     let followers = undefined
 
     while (true) {
@@ -104,7 +113,8 @@ export default class Crawler {
 
       await Promise.all(followers!.Items!.map(async (f) => {
         const userId = f.sk.split('#')[1]
-        return this.line.notifyUpdated(userId, snapshot)
+        const message = this.line.makeUpdateMessage(snapshots.items)
+        return this.line.pushMessage(userId, message)
       }))
     }
   }
