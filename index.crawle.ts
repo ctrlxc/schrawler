@@ -1,6 +1,5 @@
 import Lambda from 'aws-lambda'
 import * as dotenv from 'dotenv'
-import Webhook from './webhook'
 import Crawler from './crawler'
 
 if (process.env.NODE_ENV == 'development') {

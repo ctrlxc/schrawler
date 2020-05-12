@@ -1,2231 +1,2734 @@
 [
     {
+        "schoolId": "西高",
         "name": "大阪市立西高等学校",
         "url": "http://www.ocec.ne.jp/hs/nishi/"
     },
     {
+        "schoolId": "淀商業高",
         "name": "大阪市立淀商業高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h633515",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h633515"
     },
     {
+        "schoolId": "都島第二工業高",
         "name": "大阪市立都島第二工業高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h523550",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h523550"
     },
     {
+        "schoolId": "都島工業高",
         "name": "大阪市立都島工業高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h523520",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h523520"
     },
     {
+        "schoolId": "南高",
         "name": "大阪市立南高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h553503",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h553503"
     },
     {
+        "schoolId": "東淀工業高",
         "name": "大阪市立東淀工業高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h643523",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h643523"
     },
     {
+        "schoolId": "東商業高",
         "name": "大阪市立東商業高等学校"
     },
     {
+        "schoolId": "東高",
         "name": "大阪市立東高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h523502",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h523502"
     },
     {
+        "schoolId": "汎愛高",
         "name": "大阪市立汎愛高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h703504",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h703504"
     },
     {
+        "schoolId": "天王寺商業高",
         "name": "大阪市立天王寺商業高等学校"
     },
     {
+        "schoolId": "鶴見商業高",
         "name": "大阪市立鶴見商業高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h703516",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h703516"
     },
     {
+        "schoolId": "中央高",
         "name": "大阪市立中央高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h553530",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h553530"
     },
     {
+        "schoolId": "第二工芸高",
         "name": "大阪市立第二工芸高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h713553",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h713553"
     },
     {
+        "schoolId": "住吉商業高",
         "name": "大阪市立住吉商業高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h723517",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h723517"
     },
     {
+        "schoolId": "桜宮高",
         "name": "大阪市立桜宮高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h523501",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h523501"
     },
     {
+        "schoolId": "咲くやこの花高",
         "name": "大阪市立咲くやこの花高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h543541",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h543541"
     },
     {
+        "schoolId": "此花総合高",
         "name": "大阪市立此花総合高等学校"
     },
     {
+        "schoolId": "工芸高",
         "name": "大阪市立工芸高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h713525",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h713525"
     },
     {
+        "schoolId": "扇町総合高",
         "name": "大阪市立扇町総合高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h513545",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h513545"
     },
     {
+        "schoolId": "扇町高",
         "name": "大阪市立扇町高等学校"
     },
     {
+        "schoolId": "高",
         "name": "大阪市立高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h683505",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h683505"
     },
     {
+        "schoolId": "市岡商業高",
         "name": "大阪市立市岡商業高等学校"
     },
     {
+        "schoolId": "泉尾工業高",
         "name": "大阪市立泉尾工業高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h583522",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h583522"
     },
     {
+        "schoolId": "生野工業高",
         "name": "大阪市立生野工業高等学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=h673524",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=h673524"
     },
     {
+        "schoolId": "大阪ビジネスフロンティア高",
         "name": "大阪市立大阪ビジネスフロンティア高等学校",
         "url": "http://www.ocec.ne.jp/hs/obf/index.html"
     },
     {
+        "schoolId": "水都国際高",
         "name": "大阪市立水都国際高等学校",
         "url": "https://osaka-city-ib.jp/"
     },
     {
+        "schoolId": "梅南中",
         "name": "大阪市立梅南中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j762756",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j762756"
     },
     {
+        "schoolId": "玉出中",
         "name": "大阪市立玉出中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j762754",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j762754"
     },
     {
+        "schoolId": "鶴見橋中",
         "name": "大阪市立鶴見橋中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j762753",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j762753"
     },
     {
+        "schoolId": "成南中",
         "name": "大阪市立成南中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j762752",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j762752"
     },
     {
+        "schoolId": "今宮中",
         "name": "大阪市立今宮中学校（いまみや小中一貫校）",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j762751",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j762751"
     },
     {
+        "schoolId": "いまみや小中",
+        "name": "大阪市立今宮小学校／中学校（いまみや小中一貫校）",
+        "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j762751",
+        "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j762751"
+    },
+    {
+        "schoolId": "天下茶屋中",
         "name": "大阪市立天下茶屋中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j762750",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j762750"
     },
     {
+        "schoolId": "平野北中",
         "name": "大阪市立平野北中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j752730",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j752730"
     },
     {
+        "schoolId": "加美南中",
         "name": "大阪市立加美南中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j752729",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j752729"
     },
     {
+        "schoolId": "瓜破西中",
         "name": "大阪市立瓜破西中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j752728",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j752728"
     },
     {
+        "schoolId": "長吉六反中",
         "name": "大阪市立長吉六反中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j752727",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j752727"
     },
     {
+        "schoolId": "喜連中",
         "name": "大阪市立喜連中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j752726",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j752726"
     },
     {
+        "schoolId": "長吉西中",
         "name": "大阪市立長吉西中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j752725",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j752725"
     },
     {
+        "schoolId": "加美中",
         "name": "大阪市立加美中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j752724",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j752724"
     },
     {
+        "schoolId": "瓜破中",
         "name": "大阪市立瓜破中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j752723",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j752723"
     },
     {
+        "schoolId": "長吉中",
         "name": "大阪市立長吉中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j752722",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j752722"
     },
     {
+        "schoolId": "平野中",
         "name": "大阪市立平野中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j752721",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j752721"
     },
     {
+        "schoolId": "摂陽中",
         "name": "大阪市立摂陽中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j752720",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j752720"
     },
     {
+        "schoolId": "長谷川中",
         "name": "大阪市立長谷川中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741719",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741719"
     },
     {
+        "schoolId": "矢田西中",
         "name": "大阪市立矢田西中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j742696",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j742696"
     },
     {
+        "schoolId": "矢田南中",
         "name": "大阪市立矢田南中学校（やたなか小中一貫校）",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741699",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741699"
     },
     {
+        "schoolId": "やたなか小中",
+        "name": "大阪市立矢田南小学校／中学校（やたなか小中一貫校）",
+        "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741699",
+        "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741699"
+    },
+    {
+        "schoolId": "白鷺中",
         "name": "大阪市立白鷺中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j742694",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j742694"
     },
     {
+        "schoolId": "矢田中",
         "name": "大阪市立矢田中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j742693",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j742693"
     },
     {
+        "schoolId": "中野中",
         "name": "大阪市立中野中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j742692",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j742692"
     },
     {
+        "schoolId": "東住吉中",
         "name": "大阪市立東住吉中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j742691",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j742691"
     },
     {
+        "schoolId": "田辺中",
         "name": "大阪市立田辺中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j742690",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j742690"
     },
     {
+        "schoolId": "我孫子南中",
         "name": "大阪市立我孫子南中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j732667",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j732667"
     },
     {
+        "schoolId": "大領中",
         "name": "大阪市立大領中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j732666",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j732666"
     },
     {
+        "schoolId": "墨江丘中",
         "name": "大阪市立墨江丘中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j732665",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j732665"
     },
     {
+        "schoolId": "東我孫子中",
         "name": "大阪市立東我孫子中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j732664",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j732664"
     },
     {
+        "schoolId": "大和川中",
         "name": "大阪市立大和川中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j732663",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j732663"
     },
     {
+        "schoolId": "住吉中",
         "name": "大阪市立住吉中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j732662",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j732662"
     },
     {
+        "schoolId": "我孫子中",
         "name": "大阪市立我孫子中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j732661",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j732661"
     },
     {
+        "schoolId": "三稜中",
         "name": "大阪市立三稜中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j732660",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j732660"
     },
     {
+        "schoolId": "真住中",
         "name": "大阪市立真住中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j722637",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j722637"
     },
     {
+        "schoolId": "南港南中",
         "name": "大阪市立南港南中学校（咲洲みなみ小中一貫校）",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j722636",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j722636"
     },
     {
+        "schoolId": "咲洲みなみ小中",
+        "name": "大阪市立南港南小学校／中学校（咲洲みなみ小中一貫校）",
+        "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j722636",
+        "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j722636"
+    },
+    {
+        "schoolId": "南港北中",
         "name": "大阪市立南港北中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j722635",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j722635"
     },
     {
+        "schoolId": "新北島中",
         "name": "大阪市立新北島中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j722634",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j722634"
     },
     {
+        "schoolId": "住之江中",
         "name": "大阪市立住之江中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j722633",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j722633"
     },
     {
+        "schoolId": "加賀屋中",
         "name": "大阪市立加賀屋中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j722632",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j722632"
     },
     {
+        "schoolId": "住吉第一中",
         "name": "大阪市立住吉第一中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j722630",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j722630"
     },
     {
+        "schoolId": "水都国際中",
         "name": "大阪市立水都国際中学校",
         "url": "https://osaka-city-ib.jp/"
     },
     {
+        "schoolId": "阿倍野中",
         "name": "大阪市立阿倍野中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j712604",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j712604"
     },
     {
+        "schoolId": "松虫中",
         "name": "大阪市立松虫中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j712603",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j712603"
     },
     {
+        "schoolId": "阪南中",
         "name": "大阪市立阪南中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j712602",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j712602"
     },
     {
+        "schoolId": "文の里中",
         "name": "大阪市立文の里中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j712601",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j712601"
     },
     {
+        "schoolId": "昭和中",
         "name": "大阪市立昭和中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j712600",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j712600"
     },
     {
+        "schoolId": "横堤中",
         "name": "大阪市立横堤中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j702574",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j702574"
     },
     {
+        "schoolId": "今津中",
         "name": "大阪市立今津中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j702573",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j702573"
     },
     {
+        "schoolId": "茨田北中",
         "name": "大阪市立茨田北中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j702572",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j702572"
     },
     {
+        "schoolId": "緑中",
         "name": "大阪市立緑中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j702571",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j702571"
     },
     {
+        "schoolId": "茨田中",
         "name": "大阪市立茨田中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j702570",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j702570"
     },
     {
+        "schoolId": "鯰江中",
         "name": "大阪市立鯰江中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j692545",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j692545"
     },
     {
+        "schoolId": "城東中",
         "name": "大阪市立城東中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j692544",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j692544"
     },
     {
+        "schoolId": "菫中",
         "name": "大阪市立菫中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j692543",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j692543"
     },
     {
+        "schoolId": "城陽中",
         "name": "大阪市立城陽中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j692542",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j692542"
     },
     {
+        "schoolId": "蒲生中",
         "name": "大阪市立蒲生中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j692541",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j692541"
     },
     {
+        "schoolId": "放出中",
         "name": "大阪市立放出中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j692540",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j692540"
     },
     {
+        "schoolId": "今市中",
         "name": "大阪市立今市中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j682513",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j682513"
     },
     {
+        "schoolId": "旭東中",
         "name": "大阪市立旭東中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j682512",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j682512"
     },
     {
+        "schoolId": "大宮中",
         "name": "大阪市立大宮中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j682511",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j682511"
     },
     {
+        "schoolId": "旭陽中",
         "name": "大阪市立旭陽中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j682510",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j682510"
     },
     {
+        "schoolId": "新巽中",
         "name": "大阪市立新巽中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j672488",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j672488"
     },
     {
+        "schoolId": "新生野中",
         "name": "大阪市立新生野中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j672487",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j672487"
     },
     {
+        "schoolId": "巽中",
         "name": "大阪市立巽中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j672486",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j672486"
     },
     {
+        "schoolId": "東生野中",
         "name": "大阪市立東生野中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j672483",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j672483"
     },
     {
+        "schoolId": "生野中",
         "name": "大阪市立生野中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j672482",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j672482"
     },
     {
+        "schoolId": "田島中",
         "name": "大阪市立田島中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j672484",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j672484"
     },
     {
+        "schoolId": "桃谷中",
         "name": "大阪市立桃谷中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j67248103",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j67248103"
     },
     {
+        "schoolId": "大池中",
         "name": "大阪市立大池中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j672480",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j672480"
     },
     {
+        "schoolId": "相生中",
         "name": "大阪市立相生中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j662453",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j662453"
     },
     {
+        "schoolId": "玉津中",
         "name": "大阪市立玉津中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j662452",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j662452"
     },
     {
+        "schoolId": "本庄中",
         "name": "大阪市立本庄中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j662451",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j662451"
     },
     {
+        "schoolId": "東陽中",
         "name": "大阪市立東陽中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j662450",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j662450"
     },
     {
+        "schoolId": "大桐中",
         "name": "大阪市立大桐中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j652427",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j652427"
     },
     {
+        "schoolId": "新東淀中",
         "name": "大阪市立新東淀中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j652426",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j652426"
     },
     {
+        "schoolId": "井高野中",
         "name": "大阪市立井高野中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j652425",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j652425"
     },
     {
+        "schoolId": "東淀中",
         "name": "大阪市立東淀中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j652424",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j652424"
     },
     {
+        "schoolId": "中島中",
         "name": "大阪市立中島中学校（むくのき学園）",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j652423",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j652423"
     },
     {
+        "schoolId": "むくのき",
+        "name": "大阪市立中島小学校／中学校（むくのき学園）",
+        "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j652423",
+        "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j652423"
+    },
+    {
+        "schoolId": "瑞光中",
         "name": "大阪市立瑞光中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j652422",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j652422"
     },
     {
+        "schoolId": "柴島中",
         "name": "大阪市立柴島中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j652421",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j652421"
     },
     {
+        "schoolId": "淡路中",
         "name": "大阪市立淡路中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j652420",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j652420"
     },
     {
+        "schoolId": "宮原中",
         "name": "大阪市立宮原中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j642395",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j642395"
     },
     {
+        "schoolId": "東三国中",
         "name": "大阪市立東三国中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j642394",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j642394"
     },
     {
+        "schoolId": "美津島中",
         "name": "大阪市立美津島中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j642393",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j642393"
     },
     {
+        "schoolId": "三国中",
         "name": "大阪市立三国中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j642392",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j642392"
     },
     {
+        "schoolId": "新北野中",
         "name": "大阪市立新北野中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j642391",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j642391"
     },
     {
+        "schoolId": "十三中",
         "name": "大阪市立十三中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j642390",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j642390"
     },
     {
+        "schoolId": "佃中",
         "name": "大阪市立佃中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j632363",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j632363"
     },
     {
+        "schoolId": "歌島中",
         "name": "大阪市立歌島中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j632362",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j632362"
     },
     {
+        "schoolId": "西淀中",
         "name": "大阪市立西淀中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j632361",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j632361"
     },
     {
+        "schoolId": "淀中",
         "name": "大阪市立淀中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j632360",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j632360"
     },
     {
+        "schoolId": "木津中",
         "name": "大阪市立木津中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j612302",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j612302"
     },
     {
+        "schoolId": "日本橋中",
         "name": "大阪市立日本橋中学校（日本橋小中一貫校）",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j612301",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j612301"
     },
     {
+        "schoolId": "日本橋小中",
+        "name": "大阪市立日本橋小学校／中学校（日本橋小中一貫校）",
+        "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j612301",
+        "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j612301"
+    },
+    {
+        "schoolId": "難波中",
         "name": "大阪市立難波中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j612300",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j612300"
     },
     {
+        "schoolId": "高津中",
         "name": "大阪市立高津中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j592242",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j592242"
     },
     {
+        "schoolId": "夕陽丘中",
         "name": "大阪市立夕陽丘中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j592241",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j592241"
     },
     {
+        "schoolId": "天王寺中",
         "name": "大阪市立天王寺中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j592240",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j592240"
     },
     {
+        "schoolId": "大正北中",
         "name": "大阪市立大正北中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j582213",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j582213"
     },
     {
+        "schoolId": "大正西中",
         "name": "大阪市立大正西中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j582212",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j582212"
     },
     {
+        "schoolId": "大正中央中",
         "name": "大阪市立大正中央中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j582211",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j582211"
     },
     {
+        "schoolId": "大正東中",
         "name": "大阪市立大正東中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j582210",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j582210"
     },
     {
+        "schoolId": "築港中",
         "name": "大阪市立築港中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j572184",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j572184"
     },
     {
+        "schoolId": "市岡東中",
         "name": "大阪市立市岡東中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j572183",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j572183"
     },
     {
+        "schoolId": "港南中",
         "name": "大阪市立港南中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j572182",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j572182"
     },
     {
+        "schoolId": "港中",
         "name": "大阪市立港中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j572181",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j572181"
     },
     {
+        "schoolId": "市岡中",
         "name": "大阪市立市岡中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j572180",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j572180"
     },
     {
+        "schoolId": "堀江中",
         "name": "大阪市立堀江中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j562152",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j562152"
     },
     {
+        "schoolId": "花乃井中",
         "name": "大阪市立花乃井中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j562151",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j562151"
     },
     {
+        "schoolId": "西中",
         "name": "大阪市立西中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j562150",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j562150"
     },
     {
+        "schoolId": "上町中",
         "name": "大阪市立上町中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j552123",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j552123"
     },
     {
+        "schoolId": "南中",
         "name": "大阪市立南中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j552122",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j552122"
     },
     {
+        "schoolId": "東中",
         "name": "大阪市立東中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j552120",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j552120"
     },
     {
+        "schoolId": "咲くやこの花中",
         "name": "大阪市立咲くやこの花中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j542093",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j542093"
     },
     {
+        "schoolId": "此花中",
         "name": "大阪市立此花中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j542092",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j542092"
     },
     {
+        "schoolId": "梅香中",
         "name": "大阪市立梅香中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j542091",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j542091"
     },
     {
+        "schoolId": "春日出中",
         "name": "大阪市立春日出中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j542090",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j542090"
     },
     {
+        "schoolId": "野田中",
         "name": "大阪市立野田中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j532062",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j532062"
     },
     {
+        "schoolId": "下福島中",
         "name": "大阪市立下福島中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j532061",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j532061"
     },
     {
+        "schoolId": "八阪中",
         "name": "大阪市立八阪中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j532060",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j532060"
     },
     {
+        "schoolId": "友渕中",
         "name": "大阪市立友渕中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j522034",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j522034"
     },
     {
+        "schoolId": "淀川中",
         "name": "大阪市立淀川中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j522033",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j522033"
     },
     {
+        "schoolId": "都島中",
         "name": "大阪市立都島中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j522032",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j522032"
     },
     {
+        "schoolId": "桜宮中",
         "name": "大阪市立桜宮中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j522031",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j522031"
     },
     {
+        "schoolId": "高倉中",
         "name": "大阪市立高倉中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j522030",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j522030"
     },
     {
+        "schoolId": "弘済中学校分",
         "name": "大阪市立弘済中学校分校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e51102002",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e51102002"
     },
     {
+        "schoolId": "弘済中学分",
+        "name": "大阪市立弘済中学校分校",
+        "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e51102002",
+        "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e51102002"
+    },
+    {
+        "schoolId": "弘済中分",
+        "name": "大阪市立弘済中学校分校",
+        "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e51102002",
+        "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e51102002"
+    },
+    {
+        "schoolId": "弘済中",
         "name": "大阪市立弘済中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511020",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511020"
     },
     {
+        "schoolId": "天満中",
         "name": "大阪市立天満中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j512000",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j512000"
     },
     {
+        "schoolId": "新豊崎中",
         "name": "大阪市立新豊崎中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j512006",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j512006"
     },
     {
+        "schoolId": "豊崎中",
         "name": "大阪市立豊崎中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j512005",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j512005"
     },
     {
+        "schoolId": "大淀中",
         "name": "大阪市立大淀中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j512004",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j512004"
     },
     {
+        "schoolId": "北稜中",
         "name": "大阪市立北稜中学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j512001",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j512001"
     },
     {
+        "schoolId": "南津守小",
         "name": "大阪市立南津守小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e761763",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e761763"
     },
     {
+        "schoolId": "北津守小",
         "name": "大阪市立北津守小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e761761",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e761761"
     },
     {
+        "schoolId": "長橋小",
         "name": "大阪市立長橋小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e761760",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e761760"
     },
     {
+        "schoolId": "松之宮小",
         "name": "大阪市立松之宮小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e761759",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e761759"
     },
     {
+        "schoolId": "梅南津守小",
         "name": "大阪市立梅南津守小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e76175799",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e76175799"
     },
     {
+        "schoolId": "橘小",
         "name": "大阪市立橘小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e761756",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e761756"
     },
     {
+        "schoolId": "千本小",
         "name": "大阪市立千本小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e761755",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e761755"
     },
     {
+        "schoolId": "玉出小",
         "name": "大阪市立玉出小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e761754",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e761754"
     },
     {
+        "schoolId": "岸里小",
         "name": "大阪市立岸里小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e761753",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e761753"
     },
     {
+        "schoolId": "天下茶屋小",
         "name": "大阪市立天下茶屋小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e761752",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e761752"
     },
     {
+        "schoolId": "新今宮小",
         "name": "大阪市立新今宮小学校（いまみや小中一貫校）",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j762751",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j762751"
     },
     {
+        "schoolId": "新平野西小",
         "name": "大阪市立新平野西小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751743",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751743"
     },
     {
+        "schoolId": "川辺小",
         "name": "大阪市立川辺小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751742",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751742"
     },
     {
+        "schoolId": "加美東小",
         "name": "大阪市立加美東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751741",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751741"
     },
     {
+        "schoolId": "喜連北小",
         "name": "大阪市立喜連北小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751740",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751740"
     },
     {
+        "schoolId": "瓜破西小",
         "name": "大阪市立瓜破西小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751738",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751738"
     },
     {
+        "schoolId": "長吉出戸小",
         "name": "大阪市立長吉出戸小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751737",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751737"
     },
     {
+        "schoolId": "加美北小",
         "name": "大阪市立加美北小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751736",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751736"
     },
     {
+        "schoolId": "瓜破東小",
         "name": "大阪市立瓜破東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751734",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751734"
     },
     {
+        "schoolId": "喜連東小",
         "name": "大阪市立喜連東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751733",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751733"
     },
     {
+        "schoolId": "長原小",
         "name": "大阪市立長原小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751732",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751732"
     },
     {
+        "schoolId": "瓜破北小",
         "name": "大阪市立瓜破北小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751731",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751731"
     },
     {
+        "schoolId": "長吉南小",
         "name": "大阪市立長吉南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751730",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751730"
     },
     {
+        "schoolId": "喜連西小",
         "name": "大阪市立喜連西小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751729",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751729"
     },
     {
+        "schoolId": "長吉東小",
         "name": "大阪市立長吉東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751728",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751728"
     },
     {
+        "schoolId": "平野南小",
         "name": "大阪市立平野南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751727",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751727"
     },
     {
+        "schoolId": "加美南部小",
         "name": "大阪市立加美南部小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751726",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751726"
     },
     {
+        "schoolId": "加美小",
         "name": "大阪市立加美小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751725",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751725"
     },
     {
+        "schoolId": "瓜破小",
         "name": "大阪市立瓜破小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751724",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751724"
     },
     {
+        "schoolId": "長吉小",
         "name": "大阪市立長吉小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751723",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751723"
     },
     {
+        "schoolId": "平野小",
         "name": "大阪市立平野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751722",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751722"
     },
     {
+        "schoolId": "平野西小",
         "name": "大阪市立平野西小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751721",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751721"
     },
     {
+        "schoolId": "喜連小",
         "name": "大阪市立喜連小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e751720",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e751720"
     },
     {
+        "schoolId": "長谷川小",
         "name": "大阪市立長谷川小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741719",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741719"
     },
     {
+        "schoolId": "湯里小",
         "name": "大阪市立湯里小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741703",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741703"
     },
     {
+        "schoolId": "矢田北小",
         "name": "大阪市立矢田北小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741702",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741702"
     },
     {
+        "schoolId": "矢田西小",
         "name": "大阪市立矢田西小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741701",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741701"
     },
     {
+        "schoolId": "矢田東小",
         "name": "大阪市立矢田東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741700",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741700"
     },
     {
+        "schoolId": "矢田小",
         "name": "大阪市立矢田小学校（やたなか小中一貫校）",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741699",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741699"
     },
     {
+        "schoolId": "今川小",
         "name": "大阪市立今川小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741698",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741698"
     },
     {
+        "schoolId": "鷹合小",
         "name": "大阪市立鷹合小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741697",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741697"
     },
     {
+        "schoolId": "育和小",
         "name": "大阪市立育和小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741696",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741696"
     },
     {
+        "schoolId": "南百済小",
         "name": "大阪市立南百済小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741695",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741695"
     },
     {
+        "schoolId": "南田辺小",
         "name": "大阪市立南田辺小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741694",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741694"
     },
     {
+        "schoolId": "東田辺小",
         "name": "大阪市立東田辺小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741693",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741693"
     },
     {
+        "schoolId": "田辺小",
         "name": "大阪市立田辺小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741692",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741692"
     },
     {
+        "schoolId": "北田辺小",
         "name": "大阪市立北田辺小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741691",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741691"
     },
     {
+        "schoolId": "桑津小",
         "name": "大阪市立桑津小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e741690",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e741690"
     },
     {
+        "schoolId": "南住吉大空小",
         "name": "大阪市立南住吉大空小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731673",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731673"
     },
     {
+        "schoolId": "大空小",
         "name": "大阪市立大空小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731673",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731673"
     },
     {
+        "schoolId": "苅田北小",
         "name": "大阪市立苅田北小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731672",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731672"
     },
     {
+        "schoolId": "苅田南小",
         "name": "大阪市立苅田南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731671",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731671"
     },
     {
+        "schoolId": "山之内小",
         "name": "大阪市立山之内小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731670",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731670"
     },
     {
+        "schoolId": "苅田小",
         "name": "大阪市立苅田小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731669",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731669"
     },
     {
+        "schoolId": "大領小",
         "name": "大阪市立大領小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731668",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731668"
     },
     {
+        "schoolId": "南住吉小",
         "name": "大阪市立南住吉小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731667",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731667"
     },
     {
+        "schoolId": "清水丘小",
         "name": "大阪市立清水丘小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731666",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731666"
     },
     {
+        "schoolId": "遠里小野小",
         "name": "大阪市立遠里小野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731665",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731665"
     },
     {
+        "schoolId": "墨江小",
         "name": "大阪市立墨江小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731664",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731664"
     },
     {
+        "schoolId": "依羅小",
         "name": "大阪市立依羅小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731663",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731663"
     },
     {
+        "schoolId": "長居小",
         "name": "大阪市立長居小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731662",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731662"
     },
     {
+        "schoolId": "住吉小",
         "name": "大阪市立住吉小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731661",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731661"
     },
     {
+        "schoolId": "東粉浜小",
         "name": "大阪市立東粉浜小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e731660",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e731660"
     },
     {
+        "schoolId": "清江小",
         "name": "大阪市立清江小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721644",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721644"
     },
     {
+        "schoolId": "南港桜小",
         "name": "大阪市立南港桜小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721642",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721642"
     },
     {
+        "schoolId": "南港みなみ小",
         "name": "大阪市立南港みなみ小学校（咲洲みなみ小中一貫校）",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j722636",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j722636"
     },
     {
+        "schoolId": "南港光小",
         "name": "大阪市立南港光小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721640",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721640"
     },
     {
+        "schoolId": "新北島小",
         "name": "大阪市立新北島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721639",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721639"
     },
     {
+        "schoolId": "加賀屋東小",
         "name": "大阪市立加賀屋東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721638",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721638"
     },
     {
+        "schoolId": "平林小",
         "name": "大阪市立平林小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721637",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721637"
     },
     {
+        "schoolId": "住之江小",
         "name": "大阪市立住之江小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721636",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721636"
     },
     {
+        "schoolId": "北粉浜小",
         "name": "大阪市立北粉浜小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721635",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721635"
     },
     {
+        "schoolId": "住吉川小",
         "name": "大阪市立住吉川小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721634",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721634"
     },
     {
+        "schoolId": "加賀屋小",
         "name": "大阪市立加賀屋小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721633",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721633"
     },
     {
+        "schoolId": "敷津浦小",
         "name": "大阪市立敷津浦小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721632",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721632"
     },
     {
+        "schoolId": "安立小",
         "name": "大阪市立安立小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721631",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721631"
     },
     {
+        "schoolId": "粉浜小",
         "name": "大阪市立粉浜小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e721630",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e721630"
     },
     {
+        "schoolId": "晴明丘南小",
         "name": "大阪市立晴明丘南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e711609",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e711609"
     },
     {
+        "schoolId": "苗代小",
         "name": "大阪市立苗代小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e711608",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e711608"
     },
     {
+        "schoolId": "長池小",
         "name": "大阪市立長池小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e711607",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e711607"
     },
     {
+        "schoolId": "阪南小",
         "name": "大阪市立阪南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e711606",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e711606"
     },
     {
+        "schoolId": "阿倍野小",
         "name": "大阪市立阿倍野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e711605",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e711605"
     },
     {
+        "schoolId": "晴明丘小",
         "name": "大阪市立晴明丘小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e711604",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e711604"
     },
     {
+        "schoolId": "丸山小",
         "name": "大阪市立丸山小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e711603",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e711603"
     },
     {
+        "schoolId": "金塚小",
         "name": "大阪市立金塚小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e711602",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e711602"
     },
     {
+        "schoolId": "常盤小",
         "name": "大阪市立常盤小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e711601",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e711601"
     },
     {
+        "schoolId": "高松小",
         "name": "大阪市立高松小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e711600",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e711600"
     },
     {
+        "schoolId": "焼野小",
         "name": "大阪市立焼野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701581",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701581"
     },
     {
+        "schoolId": "茨田小",
         "name": "大阪市立茨田小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701580",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701580"
     },
     {
+        "schoolId": "鶴見南小",
         "name": "大阪市立鶴見南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701579",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701579"
     },
     {
+        "schoolId": "みどり小",
         "name": "大阪市立みどり小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701578",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701578"
     },
     {
+        "schoolId": "横堤小",
         "name": "大阪市立横堤小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701577",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701577"
     },
     {
+        "schoolId": "茨田西小",
         "name": "大阪市立茨田西小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701576",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701576"
     },
     {
+        "schoolId": "茨田東小",
         "name": "大阪市立茨田東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701575",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701575"
     },
     {
+        "schoolId": "今津小",
         "name": "大阪市立今津小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701574",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701574"
     },
     {
+        "schoolId": "鶴見小",
         "name": "大阪市立鶴見小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701573",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701573"
     },
     {
+        "schoolId": "茨田北小",
         "name": "大阪市立茨田北小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701572",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701572"
     },
     {
+        "schoolId": "茨田南小",
         "name": "大阪市立茨田南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701571",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701571"
     },
     {
+        "schoolId": "榎本小",
         "name": "大阪市立榎本小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e701570",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e701570"
     },
     {
+        "schoolId": "鯰江東小",
         "name": "大阪市立鯰江東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691555",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691555"
     },
     {
+        "schoolId": "森之宮小",
         "name": "大阪市立森之宮小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691554",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691554"
     },
     {
+        "schoolId": "関目東小",
         "name": "大阪市立関目東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691553",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691553"
     },
     {
+        "schoolId": "放出小",
         "name": "大阪市立放出小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691552",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691552"
     },
     {
+        "schoolId": "東中浜小",
         "name": "大阪市立東中浜小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691551",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691551"
     },
     {
+        "schoolId": "すみれ小",
         "name": "大阪市立すみれ小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691550",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691550"
     },
     {
+        "schoolId": "成育小",
         "name": "大阪市立成育小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691549",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691549"
     },
     {
+        "schoolId": "諏訪小",
         "name": "大阪市立諏訪小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691548",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691548"
     },
     {
+        "schoolId": "城東小",
         "name": "大阪市立城東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691547",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691547"
     },
     {
+        "schoolId": "中浜小",
         "name": "大阪市立中浜小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691546",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691546"
     },
     {
+        "schoolId": "鴫野小",
         "name": "大阪市立鴫野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691545",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691545"
     },
     {
+        "schoolId": "聖賢小",
         "name": "大阪市立聖賢小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691544",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691544"
     },
     {
+        "schoolId": "今福小",
         "name": "大阪市立今福小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691543",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691543"
     },
     {
+        "schoolId": "鯰江小",
         "name": "大阪市立鯰江小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691542",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691542"
     },
     {
+        "schoolId": "関目小",
         "name": "大阪市立関目小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691541",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691541"
     },
     {
+        "schoolId": "榎並小",
         "name": "大阪市立榎並小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e691540",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e691540"
     },
     {
+        "schoolId": "高殿南小",
         "name": "大阪市立高殿南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e681519",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e681519"
     },
     {
+        "schoolId": "太子橋小",
         "name": "大阪市立太子橋小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e681518",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e681518"
     },
     {
+        "schoolId": "新森小路小",
         "name": "大阪市立新森小路小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e681517",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e681517"
     },
     {
+        "schoolId": "城北小",
         "name": "大阪市立城北小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e681516",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e681516"
     },
     {
+        "schoolId": "生江小",
         "name": "大阪市立生江小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e681515",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e681515"
     },
     {
+        "schoolId": "大宮西小",
         "name": "大阪市立大宮西小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e681514",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e681514"
     },
     {
+        "schoolId": "高殿小",
         "name": "大阪市立高殿小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e681513",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e681513"
     },
     {
+        "schoolId": "大宮小",
         "name": "大阪市立大宮小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e681512",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e681512"
     },
     {
+        "schoolId": "古市小",
         "name": "大阪市立古市小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e681511",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e681511"
     },
     {
+        "schoolId": "清水小",
         "name": "大阪市立清水小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e681510",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e681510"
     },
     {
+        "schoolId": "巽東小",
         "name": "大阪市立巽東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671498",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671498"
     },
     {
+        "schoolId": "巽南小",
         "name": "大阪市立巽南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671497",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671497"
     },
     {
+        "schoolId": "西生野小",
         "name": "大阪市立西生野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671496",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671496"
     },
     {
+        "schoolId": "北巽小",
         "name": "大阪市立北巽小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671495",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671495"
     },
     {
+        "schoolId": "巽小",
         "name": "大阪市立巽小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671494",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671494"
     },
     {
+        "schoolId": "生野南小",
         "name": "大阪市立生野南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671493",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671493"
     },
     {
+        "schoolId": "舎利寺小",
         "name": "大阪市立舎利寺小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671492",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671492"
     },
     {
+        "schoolId": "田島小",
         "name": "大阪市立田島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671491",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671491"
     },
     {
+        "schoolId": "東小路小",
         "name": "大阪市立東小路小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671490",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671490"
     },
     {
+        "schoolId": "小路小",
         "name": "大阪市立小路小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671489",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671489"
     },
     {
+        "schoolId": "東中川小",
         "name": "大阪市立東中川小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671488",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671488"
     },
     {
+        "schoolId": "中川小",
         "name": "大阪市立中川小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671487",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671487"
     },
     {
+        "schoolId": "生野小",
         "name": "大阪市立生野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671486",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671486"
     },
     {
+        "schoolId": "林寺小",
         "name": "大阪市立林寺小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671485",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671485"
     },
     {
+        "schoolId": "勝山小",
         "name": "大阪市立勝山小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671484",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671484"
     },
     {
+        "schoolId": "東桃谷小",
         "name": "大阪市立東桃谷小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671483",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671483"
     },
     {
+        "schoolId": "鶴橋小",
         "name": "大阪市立鶴橋小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671482",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671482"
     },
     {
+        "schoolId": "御幸森小",
         "name": "大阪市立御幸森小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671481",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671481"
     },
     {
+        "schoolId": "北鶴橋小",
         "name": "大阪市立北鶴橋小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e671480",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e671480"
     },
     {
+        "schoolId": "宝栄小",
         "name": "大阪市立宝栄小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e661460",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e661460"
     },
     {
+        "schoolId": "深江小",
         "name": "大阪市立深江小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e661459",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e661459"
     },
     {
+        "schoolId": "神路小",
         "name": "大阪市立神路小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e661458",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e661458"
     },
     {
+        "schoolId": "片江小",
         "name": "大阪市立片江小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e661457",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e661457"
     },
     {
+        "schoolId": "今里小",
         "name": "大阪市立今里小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e661456",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e661456"
     },
     {
+        "schoolId": "東中本小",
         "name": "大阪市立東中本小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e661455",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e661455"
     },
     {
+        "schoolId": "中本小",
         "name": "大阪市立中本小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e661454",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e661454"
     },
     {
+        "schoolId": "北中道小",
         "name": "大阪市立北中道小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e661453",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e661453"
     },
     {
+        "schoolId": "中道小",
         "name": "大阪市立中道小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e661452",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e661452"
     },
     {
+        "schoolId": "大成小",
         "name": "大阪市立大成小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e661451",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e661451"
     },
     {
+        "schoolId": "東小橋小",
         "name": "大阪市立東小橋小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e661450",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e661450"
     },
     {
+        "schoolId": "大道南小",
         "name": "大阪市立大道南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651436",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651436"
     },
     {
+        "schoolId": "豊里南小",
         "name": "大阪市立豊里南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651435",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651435"
     },
     {
+        "schoolId": "大隅西小",
         "name": "大阪市立大隅西小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651434",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651434"
     },
     {
+        "schoolId": "東井高野小",
         "name": "大阪市立東井高野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651433",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651433"
     },
     {
+        "schoolId": "豊新小",
         "name": "大阪市立豊新小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651432",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651432"
     },
     {
+        "schoolId": "大桐小",
         "name": "大阪市立大桐小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651431",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651431"
     },
     {
+        "schoolId": "井高野小",
         "name": "大阪市立井高野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651430",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651430"
     },
     {
+        "schoolId": "下新庄小",
         "name": "大阪市立下新庄小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651429",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651429"
     },
     {
+        "schoolId": "小松小",
         "name": "大阪市立小松小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651427",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651427"
     },
     {
+        "schoolId": "啓発小",
         "name": "大阪市立啓発小学校（むくのき学園）",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j652423",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j652423"
     },
     {
+        "schoolId": "豊里小",
         "name": "大阪市立豊里小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651425",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651425"
     },
     {
+        "schoolId": "大隅東小",
         "name": "大阪市立大隅東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651424",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651424"
     },
     {
+        "schoolId": "新庄小",
         "name": "大阪市立新庄小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651423",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651423"
     },
     {
+        "schoolId": "菅原小",
         "name": "大阪市立菅原小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651422",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651422"
     },
     {
+        "schoolId": "西淡路小",
         "name": "大阪市立西淡路小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651421",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651421"
     },
     {
+        "schoolId": "東淡路小",
         "name": "大阪市立東淡路小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e651420",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e651420"
     },
     {
+        "schoolId": "宮原小",
         "name": "大阪市立宮原小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641406",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641406"
     },
     {
+        "schoolId": "新東三国小",
         "name": "大阪市立新東三国小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641405",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641405"
     },
     {
+        "schoolId": "西三国小",
         "name": "大阪市立西三国小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641404",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641404"
     },
     {
+        "schoolId": "東三国小",
         "name": "大阪市立東三国小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641403",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641403"
     },
     {
+        "schoolId": "木川南小",
         "name": "大阪市立木川南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641402",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641402"
     },
     {
+        "schoolId": "塚本小",
         "name": "大阪市立塚本小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641401",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641401"
     },
     {
+        "schoolId": "西中島小",
         "name": "大阪市立西中島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641400",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641400"
     },
     {
+        "schoolId": "北中島小",
         "name": "大阪市立北中島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641399",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641399"
     },
     {
+        "schoolId": "三国小",
         "name": "大阪市立三国小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641398",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641398"
     },
     {
+        "schoolId": "木川小",
         "name": "大阪市立木川小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641397",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641397"
     },
     {
+        "schoolId": "十三小",
         "name": "大阪市立十三小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641396",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641396"
     },
     {
+        "schoolId": "野中小",
         "name": "大阪市立野中小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641395",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641395"
     },
     {
+        "schoolId": "新高小",
         "name": "大阪市立新高小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641394",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641394"
     },
     {
+        "schoolId": "三津屋小",
         "name": "大阪市立三津屋小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641393",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641393"
     },
     {
+        "schoolId": "加島小",
         "name": "大阪市立加島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641392",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641392"
     },
     {
+        "schoolId": "田川小",
         "name": "大阪市立田川小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641391",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641391"
     },
     {
+        "schoolId": "神津小",
         "name": "大阪市立神津小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e641390",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e641390"
     },
     {
+        "schoolId": "御幣島小",
         "name": "大阪市立御幣島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631373",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631373"
     },
     {
+        "schoolId": "佃南小",
         "name": "大阪市立佃南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631372",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631372"
     },
     {
+        "schoolId": "佃西小",
         "name": "大阪市立佃西小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631371",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631371"
     },
     {
+        "schoolId": "出来島小",
         "name": "大阪市立出来島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631370",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631370"
     },
     {
+        "schoolId": "歌島小",
         "name": "大阪市立歌島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631369",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631369"
     },
     {
+        "schoolId": "香簑小",
         "name": "大阪市立香簑小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631368",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631368"
     },
     {
+        "schoolId": "佃小",
         "name": "大阪市立佃小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631367",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631367"
     },
     {
+        "schoolId": "川北小",
         "name": "大阪市立川北小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631366",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631366"
     },
     {
+        "schoolId": "大和田小",
         "name": "大阪市立大和田小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631365",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631365"
     },
     {
+        "schoolId": "福小",
         "name": "大阪市立福小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631364",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631364"
     },
     {
+        "schoolId": "姫島小",
         "name": "大阪市立姫島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631363",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631363"
     },
     {
+        "schoolId": "姫里小",
         "name": "大阪市立姫里小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631362",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631362"
     },
     {
+        "schoolId": "野里小",
         "name": "大阪市立野里小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631361",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631361"
     },
     {
+        "schoolId": "柏里小",
         "name": "大阪市立柏里小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e631360",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e631360"
     },
     {
+        "schoolId": "難波元町小",
         "name": "大阪市立難波元町小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e611302",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e611302"
     },
     {
+        "schoolId": "塩草立葉小",
         "name": "大阪市立塩草立葉小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e61130803",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e61130803"
     },
     {
+        "schoolId": "敷津小",
         "name": "大阪市立敷津小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e611307",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e611307"
     },
     {
+        "schoolId": "浪速小",
         "name": "大阪市立浪速小学校（日本橋小中一貫校）",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=j612301",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=j612301"
     },
     {
+        "schoolId": "大国小",
         "name": "大阪市立大国小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e611303",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e611303"
     },
     {
+        "schoolId": "栄小",
         "name": "大阪市立栄小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e611301",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e611301"
     },
     {
+        "schoolId": "天王寺小",
         "name": "大阪市立天王寺小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e591247",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e591247"
     },
     {
+        "schoolId": "生魂小",
         "name": "大阪市立生魂小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e591246",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e591246"
     },
     {
+        "schoolId": "大江小",
         "name": "大阪市立大江小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e591245",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e591245"
     },
     {
+        "schoolId": "聖和小",
         "name": "大阪市立聖和小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e591244",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e591244"
     },
     {
+        "schoolId": "五条小",
         "name": "大阪市立五条小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e591243",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e591243"
     },
     {
+        "schoolId": "桃陽小",
         "name": "大阪市立桃陽小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e591242",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e591242"
     },
     {
+        "schoolId": "味原小",
         "name": "大阪市立味原小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e591241",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e591241"
     },
     {
+        "schoolId": "真田山小",
         "name": "大阪市立真田山小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e591240",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e591240"
     },
     {
+        "schoolId": "小林小",
         "name": "大阪市立小林小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e581219",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e581219"
     },
     {
+        "schoolId": "三軒家東小",
         "name": "大阪市立三軒家東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e581218",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e581218"
     },
     {
+        "schoolId": "平尾小",
         "name": "大阪市立平尾小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e581217",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e581217"
     },
     {
+        "schoolId": "泉尾北小",
         "name": "大阪市立泉尾北小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e581216",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e581216"
     },
     {
+        "schoolId": "鶴町小",
         "name": "大阪市立鶴町小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e581215",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e581215"
     },
     {
+        "schoolId": "南恩加島小",
         "name": "大阪市立南恩加島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e581214",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e581214"
     },
     {
+        "schoolId": "北恩加島小",
         "name": "大阪市立北恩加島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e581213",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e581213"
     },
     {
+        "schoolId": "中泉尾小",
         "name": "大阪市立中泉尾小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e581212",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e581212"
     },
     {
+        "schoolId": "泉尾東小",
         "name": "大阪市立泉尾東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e581211",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e581211"
     },
     {
+        "schoolId": "三軒家西小",
         "name": "大阪市立三軒家西小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e581210",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e581210"
     },
     {
+        "schoolId": "池島小",
         "name": "大阪市立池島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e571190",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e571190"
     },
     {
+        "schoolId": "弁天小",
         "name": "大阪市立弁天小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e571189",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e571189"
     },
     {
+        "schoolId": "港晴小",
         "name": "大阪市立港晴小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e571188",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e571188"
     },
     {
+        "schoolId": "南市岡小",
         "name": "大阪市立南市岡小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e571187",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e571187"
     },
     {
+        "schoolId": "築港小",
         "name": "大阪市立築港小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e571186",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e571186"
     },
     {
+        "schoolId": "波除小",
         "name": "大阪市立波除小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e571185",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e571185"
     },
     {
+        "schoolId": "八幡屋小",
         "name": "大阪市立八幡屋小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e571184",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e571184"
     },
     {
+        "schoolId": "田中小",
         "name": "大阪市立田中小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e571183",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e571183"
     },
     {
+        "schoolId": "三先小",
         "name": "大阪市立三先小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e571182",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e571182"
     },
     {
+        "schoolId": "磯路小",
         "name": "大阪市立磯路小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e571181",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e571181"
     },
     {
+        "schoolId": "市岡小",
         "name": "大阪市立市岡小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e571180",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e571180"
     },
     {
+        "schoolId": "明治小",
         "name": "大阪市立明治小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e561157",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e561157"
     },
     {
+        "schoolId": "堀江小",
         "name": "大阪市立堀江小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e561156",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e561156"
     },
     {
+        "schoolId": "本田小",
         "name": "大阪市立本田小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e561155",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e561155"
     },
     {
+        "schoolId": "九条北小",
         "name": "大阪市立九条北小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e561154",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e561154"
     },
     {
+        "schoolId": "九条東小",
         "name": "大阪市立九条東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e561153",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e561153"
     },
     {
+        "schoolId": "九条南小",
         "name": "大阪市立九条南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e561152",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e561152"
     },
     {
+        "schoolId": "日吉小",
         "name": "大阪市立日吉小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e561151",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e561151"
     },
     {
+        "schoolId": "西船場小",
         "name": "大阪市立西船場小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e561150",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e561150"
     },
     {
+        "schoolId": "中央小",
         "name": "大阪市立中央小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e551133",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e551133"
     },
     {
+        "schoolId": "南小",
         "name": "大阪市立南小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e551131",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e551131"
     },
     {
+        "schoolId": "高津小",
         "name": "大阪市立高津小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e551129",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e551129"
     },
     {
+        "schoolId": "開平小",
         "name": "大阪市立開平小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e551132",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e551132"
     },
     {
+        "schoolId": "中大江小",
         "name": "大阪市立中大江小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e551122",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e551122"
     },
     {
+        "schoolId": "南大江小",
         "name": "大阪市立南大江小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e551121",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e551121"
     },
     {
+        "schoolId": "玉造小",
         "name": "大阪市立玉造小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e551120",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e551120"
     },
     {
+        "schoolId": "春日出小",
         "name": "大阪市立春日出小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e541097",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e541097"
     },
     {
+        "schoolId": "酉島小",
         "name": "大阪市立酉島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e541096",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e541096"
     },
     {
+        "schoolId": "高見小",
         "name": "大阪市立高見小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e541095",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e541095"
     },
     {
+        "schoolId": "梅香小",
         "name": "大阪市立梅香小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e541094",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e541094"
     },
     {
+        "schoolId": "伝法小",
         "name": "大阪市立伝法小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e541093",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e541093"
     },
     {
+        "schoolId": "島屋小",
         "name": "大阪市立島屋小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e541092",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e541092"
     },
     {
+        "schoolId": "四貫島小",
         "name": "大阪市立四貫島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e541091",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e541091"
     },
     {
+        "schoolId": "西九条小",
         "name": "大阪市立西九条小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e541090",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e541090"
     },
     {
+        "schoolId": "上福島小",
         "name": "大阪市立上福島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e531068",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e531068"
     },
     {
+        "schoolId": "海老江西小",
         "name": "大阪市立海老江西小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e531067",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e531067"
     },
     {
+        "schoolId": "海老江東小",
         "name": "大阪市立海老江東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e531066",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e531066"
     },
     {
+        "schoolId": "鷺洲小",
         "name": "大阪市立鷺洲小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e531065",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e531065"
     },
     {
+        "schoolId": "大開小",
         "name": "大阪市立大開小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e531064",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e531064"
     },
     {
+        "schoolId": "吉野小",
         "name": "大阪市立吉野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e531063",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e531063"
     },
     {
+        "schoolId": "吉野小",
         "name": "大阪市立吉野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e531063",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e531063"
     },
     {
+        "schoolId": "野田小",
         "name": "大阪市立野田小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e531062",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e531062"
     },
     {
+        "schoolId": "玉川小",
         "name": "大阪市立玉川小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e531061",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e531061"
     },
     {
+        "schoolId": "福島小",
         "name": "大阪市立福島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e531060",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e531060"
     },
     {
+        "schoolId": "友渕小",
         "name": "大阪市立友渕小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e521038",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e521038"
     },
     {
+        "schoolId": "大東小",
         "name": "大阪市立大東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e521037",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e521037"
     },
     {
+        "schoolId": "東都島小",
         "name": "大阪市立東都島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e521036",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e521036"
     },
     {
+        "schoolId": "内代小",
         "name": "大阪市立内代小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e521035",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e521035"
     },
     {
+        "schoolId": "都島小",
         "name": "大阪市立都島小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e521034",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e521034"
     },
     {
+        "schoolId": "淀川小",
         "name": "大阪市立淀川小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e521033",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e521033"
     },
     {
+        "schoolId": "高倉小",
         "name": "大阪市立高倉小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e521032",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e521032"
     },
     {
+        "schoolId": "中野小",
         "name": "大阪市立中野小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e521031",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e521031"
     },
     {
+        "schoolId": "桜宮小",
         "name": "大阪市立桜宮小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e521030",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e521030"
     },
     {
+        "schoolId": "弘済小学校分",
         "name": "大阪市立弘済小学校分校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e51102002",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e51102002"
     },
     {
+        "schoolId": "弘済小学分",
+        "name": "大阪市立弘済小学校分校",
+        "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e51102002",
+        "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e51102002"
+    },
+    {
+        "schoolId": "弘済小分",
+        "name": "大阪市立弘済小学校分校",
+        "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e51102002",
+        "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e51102002"
+    },
+    {
+        "schoolId": "弘済小",
         "name": "大阪市立弘済小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511020",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511020"
     },
     {
+        "schoolId": "扇町小",
         "name": "大阪市立扇町小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511017",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511017"
     },
     {
+        "schoolId": "豊崎小",
         "name": "大阪市立豊崎小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511016",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511016"
     },
     {
+        "schoolId": "豊仁小",
         "name": "大阪市立豊仁小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511015",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511015"
     },
     {
+        "schoolId": "大淀小",
         "name": "大阪市立大淀小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511013",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511013"
     },
     {
+        "schoolId": "中津小",
         "name": "大阪市立中津小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511012",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511012"
     },
     {
+        "schoolId": "豊崎本庄小",
         "name": "大阪市立豊崎本庄小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511011",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511011"
     },
     {
+        "schoolId": "豊崎東小",
         "name": "大阪市立豊崎東小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511010",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511010"
     },
     {
+        "schoolId": "菅北小",
         "name": "大阪市立菅北小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511007",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511007"
     },
     {
+        "schoolId": "西天満小",
         "name": "大阪市立西天満小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511002",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511002"
     },
     {
+        "schoolId": "堀川小",
         "name": "大阪市立堀川小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511001",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511001"
     },
     {
+        "schoolId": "滝川小",
         "name": "大阪市立滝川小学校",
         "url": "http://swa.city-osaka.ed.jp/swas/index.php?id=e511000",
         "rss": "http://swa.city-osaka.ed.jp/weblog/rss2.php?id=e511000"

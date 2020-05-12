@@ -1,46 +1,89 @@
 import AWS from 'aws-sdk'
 import { PromiseResult } from 'aws-sdk/lib/request'
-
-export interface User {
-  userId: string
-}
-
-export interface School {
-  name: string
-  url: string
-  rss: string
-}
+import * as Types from './types'
 
 export default class Dynamo {
   public static readonly TABLE_NAME = 'followers'
 
+  public dynamodb: AWS.DynamoDB
   public client: AWS.DynamoDB.DocumentClient
 
   constructor(options?: {[key: string]: any}) {    
+    this.dynamodb = new AWS.DynamoDB(options)
     this.client = new AWS.DynamoDB.DocumentClient(options)
   }
 
-  private keyUser(userId: string) {
+  public async createTables() {
+    const tables = [
+      {
+        TableName : Dynamo.TABLE_NAME,
+        KeySchema: [
+          { AttributeName: 'pk', KeyType: "HASH"},
+          { AttributeName: 'sk', KeyType: "RANGE"},
+        ],
+        AttributeDefinitions: [       
+          { AttributeName: "pk", AttributeType: "S" },
+          { AttributeName: "sk", AttributeType: "S" },
+        ],
+        ProvisionedThroughput: {       
+            ReadCapacityUnits: 5, 
+            WriteCapacityUnits: 5,
+        }
+      },
+    ]
+
+    const listTables = await this.dynamodb.listTables().promise()
+
+    return Promise.all(tables.map((v) => {
+      if (listTables.TableNames?.indexOf(v.TableName) == -1) {
+        console.log(`create table ... ${v.TableName}`)
+        return this.dynamodb.createTable(v).promise()
+      }
+      else {
+        console.log(`skip create table ... ${v.TableName}`)
+      }
+    }))
+  }
+
+  public async load(items: Types.DynamoItems) {
+    const CHUNK_SIZE = 10
+
+    for (let i = 0; i < items.length; i += CHUNK_SIZE) {
+      const chunk = items.slice(i, i + CHUNK_SIZE)
+
+      console.log(`loading ... ${i + 1} to ${i + chunk.length} / ${items.length}`)
+
+      await Promise.all(chunk.map(v => {
+        return this.client.put({
+          TableName: Dynamo.TABLE_NAME,
+          Item: v
+        }).promise()
+      }))
+    }
+  }
+
+  public keyUser(userId: string) {
     return {
       pk: `user#${userId}`,
       sk: `#meta#${userId}`,
     }
   }
 
-  private keySchool(name: string) {
+  public keySchool(schoolId: string) {
     return {
-      pk: `school#${name}`,
-      sk: `#meta#${name}`,
+      pk: `school#${schoolId}`,
+      sk: `#meta#${schoolId}`,
     }
   }
-  private keyFollowSchoolByUser(userId: string, schoolName: string) {
+
+  public keyFollowSchoolByUser(userId: string, schoolId: string) {
     return {
-      pk: `school#${schoolName}`,
+      pk: `school#${schoolId}`,
       sk: `user#${userId}`,
     }
   }
 
-  public async followUser(user: User) {
+  public async followUser(user: Types.User) {
     return this.client.put({
       TableName: Dynamo.TABLE_NAME,
       Item: {...this.keyUser(user.userId), ...{
@@ -96,22 +139,22 @@ export default class Dynamo {
     }).promise()
   }
 
-  public async getSchool(name: string) {
+  public async getSchool(schoolId: string) {
     return this.client.get({
       TableName: Dynamo.TABLE_NAME,
-      Key: this.keySchool(name)
+      Key: this.keySchool(schoolId)
     }).promise()
   }
 
-  public async followSchoolByUser(userId: string, schoolName: string) {
-    return this.toggleSchoolByUser(userId, schoolName, true)
+  public async followSchoolByUser(userId: string, schoolId: string) {
+    return this.toggleSchoolByUser(userId, schoolId, true)
   }
 
-  public async unfollowSchoolByUser(userId: string, schoolName: string) {
-    return this.toggleSchoolByUser(userId, schoolName, false)
+  public async unfollowSchoolByUser(userId: string, schoolId: string) {
+    return this.toggleSchoolByUser(userId, schoolId, false)
   }
 
-  public async toggleSchoolByUser(userId: string, schoolName: string, isFollow?: boolean) {
+  public async toggleSchoolByUser(userId: string, schoolId: string, isFollow?: boolean) {
     const user = await this.getUser(userId)
 
     if (!this.valid(user)) {
@@ -120,20 +163,20 @@ export default class Dynamo {
       })
     }
 
-    const school = await this.getSchool(schoolName)
+    const school = await this.getSchool(schoolId)
 
     if (!this.valid(school)) {
-      throw new Error(`no support school: ${schoolName}`)
+      throw new Error(`no support school: ${schoolId}`)
     }
 
     if (isFollow == undefined) {
-      isFollow = !(await this.isFollowedSchoolByUser(userId, schoolName))
+      isFollow = !(await this.isFollowedSchoolByUser(userId, schoolId))
     }
   
     if (isFollow) {
       await this.client.put({
         TableName: Dynamo.TABLE_NAME,
-        Item: {...this.keyFollowSchoolByUser(userId, schoolName), ...{
+        Item: {...this.keyFollowSchoolByUser(userId, schoolId), ...{
           createdAt: Date.now(),
         }},
       }).promise()
@@ -141,17 +184,17 @@ export default class Dynamo {
     else {
       await this.client.delete({
         TableName: Dynamo.TABLE_NAME,
-        Key: this.keyFollowSchoolByUser(userId, schoolName)
+        Key: this.keyFollowSchoolByUser(userId, schoolId)
       }).promise()
     }
 
     return isFollow
   }
 
-  public async followSchool(school: School) {
+  public async followSchool(school: Types.School) {
     return this.client.put({
       TableName: Dynamo.TABLE_NAME,
-      Item: {...this.keySchool(school.name), ...{
+      Item: {...this.keySchool(school.schoolId), ...{
         url: school.url,
         rss: school.rss,
         createdAt: Date.now()
@@ -159,13 +202,13 @@ export default class Dynamo {
     }).promise()
   }
 
-  public async unfollowSchool(schoolName: string) {
+  public async unfollowSchool(schoolId: string) {
     const params: AWS.DynamoDB.DocumentClient.QueryInput = {
       TableName: Dynamo.TABLE_NAME,
       ProjectionExpression: 'pk, sk',
       KeyConditionExpression: 'pk = :pk',
       ExpressionAttributeValues: {
-        ':pk': `school#${schoolName}`,
+        ':pk': `school#${schoolId}`,
       },
     }
 
@@ -220,13 +263,13 @@ export default class Dynamo {
     return this.client.scan(params).promise()
   }
 
-  public async scanSchoolFollowers(schoolName: string, last?: PromiseResult<AWS.DynamoDB.DocumentClient.QueryOutput, AWS.AWSError>) {
+  public async scanSchoolFollowers(schoolId: string, last?: PromiseResult<AWS.DynamoDB.DocumentClient.QueryOutput, AWS.AWSError>) {
     const params: AWS.DynamoDB.DocumentClient.QueryInput = {
       TableName: Dynamo.TABLE_NAME,
       ProjectionExpression: 'sk',
       KeyConditionExpression: 'pk = :pk and begins_with(sk, :sk)',
       ExpressionAttributeValues: {
-        ':pk': `school#${schoolName}`,
+        ':pk': `school#${schoolId}`,
         ':sk': 'user#',
       },
     }
@@ -242,13 +285,13 @@ export default class Dynamo {
     return this.client.query(params).promise()
   }
 
-  public async hasSchoolFollowers(schoolName: string) {
+  public async hasSchoolFollowers(schoolId: string) {
     const params: AWS.DynamoDB.DocumentClient.QueryInput = {
       TableName: Dynamo.TABLE_NAME,
       ProjectionExpression: 'sk',
       KeyConditionExpression: 'pk = :pk and begins_with(sk, :sk)',
       ExpressionAttributeValues: {
-        ':pk': `school#${schoolName}`,
+        ':pk': `school#${schoolId}`,
         ':sk': `user#`,
       },
       Limit: 1,
@@ -259,20 +302,20 @@ export default class Dynamo {
     return this.valids(res)
   }
 
-  public async isFollowedSchoolByUser(userId: string, schoolName: string) {
+  public async isFollowedSchoolByUser(userId: string, schoolId: string) {
     const res = await this.client.get({
       TableName: Dynamo.TABLE_NAME,
       ProjectionExpression: 'pk',
-      Key: this.keyFollowSchoolByUser(userId, schoolName),
+      Key: this.keyFollowSchoolByUser(userId, schoolId),
     }).promise()
 
     return this.valid(res)
   }
 
-  public async crawledSchool(schoolName:string, lastUpdatedAt: number) {
+  public async crawledSchool(schoolId: string, lastUpdatedAt: number) {
     return this.client.update({
       TableName: Dynamo.TABLE_NAME,
-      Key: this.keySchool(schoolName),
+      Key: this.keySchool(schoolId),
       UpdateExpression: 'set lastUpdatedAt = :s, lastCrawledAt = :c',
       ExpressionAttributeValues:{
           ':s': lastUpdatedAt,

@@ -19,23 +19,32 @@ export default class Line {
     // })
   }
 
-  public async getSchoolNameInMessage(ev: LineCore.MessageEvent) {
+  public async getSchoolIdInMessage(ev: LineCore.MessageEvent) {
     if (ev.message.type != 'text') {
       return null
     }
 
-    return this.schoolName(ev.message.text)
+    return this.schoolId(ev.message.text)
   }
 
-  public schoolName(text: string) {
+  public schoolId(text: string) {
     const rtext = text.replace(/[ 　]+/g, '')
-    const m = /(大阪市立)?(.+)([小中高])/g.exec(rtext)
 
-    if (!m) {
-      return null
+    let m = /.+(小中|[小中高分])/.exec(rtext)
+
+    if (m) {
+      return m[0].replace(/^(大阪)?市立/g, '')
     }
 
-    return m[2] + m[3]
+    if (/むくのき/g.test(rtext)) {
+      return 'むくのき'
+    }
+
+    if (/(大阪)?市立高(校|等|$)/g.test(rtext)) {
+      return '市立高'
+    }
+
+    return null
   }
 
   public toSimpleSchoolName(text: string) {
@@ -60,8 +69,8 @@ export default class Line {
     )
   }
 
-  public async sorryNoSchool(schoolName: string, replyToken?: string, userId?: string) {
-    const simpleSchoolName = this.toSimpleSchoolName(schoolName)
+  public async sorryNoSchool(schoolId: string, replyToken?: string, userId?: string) {
+    const simpleSchoolName = this.toSimpleSchoolName(schoolId)
 
     return this.replyOrPush(
       `申し訳ありません🙇‍ 「${simpleSchoolName}」🏫で検索しましたが、このボットでは対応できない学校名でした😓`,
@@ -70,8 +79,8 @@ export default class Line {
     )
   }
 
-  public async toggleSchool(schoolName: string, isFollowed: boolean, replyToken?: string, userId?: string) {
-    const simpleSchoolName = this.toSimpleSchoolName(schoolName)
+  public async toggleSchool(schoolId: string, isFollowed: boolean, replyToken?: string, userId?: string) {
+    const simpleSchoolName = this.toSimpleSchoolName(schoolId)
     const action = isFollowed ? '開始' : '停止'
     const suffix = isFollowed ? '🎉' : '🚫'
     
@@ -97,14 +106,14 @@ export default class Line {
   }
 
   public makeUpdateMessage(snapshots: {
-    schoolName: string,
+    schoolId: string,
     title: string,
     snippet: string,
     url: string,
     pubDate: number,
   }[]): LineCore.TextMessage[] {
     return snapshots.map(snapshot =>{
-      const simpleSchoolName = this.toSimpleSchoolName(snapshot.schoolName)
+      const simpleSchoolName = this.toSimpleSchoolName(snapshot.schoolId)
       const updDate = moment.unix(snapshot.pubDate / 1000).utc().add(9, 'hour').format('YYYY/MM/DD HH:mm:ss') // +9hr = JST
 
       return {

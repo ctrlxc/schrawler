@@ -3,12 +3,19 @@ import * as sinon from 'sinon'
 import Dynamo from '../dynamo'
 
 describe('dynamo', () => {
-  it('follow / unfollow / follower', async () => {
-    const dynamo = new Dynamo({
+  let dynamo = new Dynamo({
+    region: 'ap-northeast-1',
+    endpoint: 'http://localhost:8000',
+  })
+    
+  beforeEach(function(){
+    dynamo = new Dynamo({
       region: 'ap-northeast-1',
       endpoint: 'http://localhost:8000',
-    })
-  
+    })  
+  })
+
+  it('follow / unfollow / follower', async () => {  
     // first
     {
       const follower = {
@@ -80,19 +87,16 @@ describe('dynamo', () => {
   })
 
   it('toggle school by usre', async () => {
-    const dynamo = new Dynamo({
-      region: 'ap-northeast-1',
-      endpoint: 'http://localhost:8000',
-    })
-  
     await dynamo.followSchool({
-      name: 'クロマティ高',
+      schoolId: 'クロマティ高',
+      name: 'クロマティ高校',
       url: 'http://example.com/',
       rss: 'http://example.com/rss',
     })
 
     await dynamo.followSchool({
-      name: 'クロマティ中',
+      schoolId: 'クロマティ中',
+      name: 'クロマティ中学校',
       url: 'http://example.com/',
       rss: 'http://example.com/rss',
     })

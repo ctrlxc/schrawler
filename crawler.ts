@@ -1,18 +1,16 @@
 import Dynamo from './dynamo'
 import Line from './line'
-// import puppeteer from 'puppeteer'
 import RssParser from 'rss-parser'
 import * as LineCore from '@line/bot-sdk'
 import { DocumentClient } from 'aws-sdk/clients/dynamodb'
 
 export interface Snapshot {
-  schoolName: string
+  schoolId: string
   title: string
   snippet: string
   url: string
   pubDate: number
 }
-
 
 export interface Snapshots {
   lastUpdatedAt: number
@@ -72,9 +70,9 @@ export default class Crawler {
     }
   }
 
-  public async snapshots(schoolName: string, school: DocumentClient.AttributeMap): Promise<Snapshots> {
+  public async snapshots(schoolId: string, school: DocumentClient.AttributeMap): Promise<Snapshots> {
     if (!school.rss) {
-      throw new Error(`no rss: ${schoolName}`)
+      throw new Error(`no rss: ${schoolId}`)
     }
 
     const parser = new RssParser()
@@ -86,7 +84,7 @@ export default class Crawler {
 
     const items = feed.items.map(item => {
       return {
-        schoolName,
+        schoolId,
         title: item.title!,
         snippet: item.contentSnippet!,
         url: school.url,
@@ -102,11 +100,11 @@ export default class Crawler {
     }
   }
 
-  public async notifyFollowers(schoolName: string, snapshots: Snapshots) {
+  public async notifyFollowers(schoolId: string, snapshots: Snapshots) {
     let followers = undefined
 
     while (true) {
-      followers = await this.dynamo.scanSchoolFollowers(schoolName, followers)
+      followers = await this.dynamo.scanSchoolFollowers(schoolId, followers)
       if (!this.dynamo.valids(followers)) {
         break
       }
