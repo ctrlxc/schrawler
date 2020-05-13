@@ -1,27 +1,21 @@
 import Lambda from 'aws-lambda'
 import * as dotenv from 'dotenv'
-import Crawler from './crawler'
+import Webhook from './webhook'
+import * as utils from './utils'
 
 if (process.env.NODE_ENV == 'development') {
   dotenv.config()
 }
 
-const lineConfig = {
-  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN!,
-  channelSecret: process.env.CHANNEL_SECRET!,
-}
-
-const dynamoConfig = {
-  region: process.env.AWS_DYNAMODB_REGION,
-  endpoint: process.env.AWS_DYNAMODB_ENDPOINT,
-}
+const lineConfig = utils.lineConfig()
+const dynamoConfig = utils.dynamoConfig()
 
 export const handler: Lambda.APIGatewayProxyHandler = async (ev: Lambda.APIGatewayEvent, _context: any) => {
   console.log('Received event:', JSON.stringify(ev, null, 2))
 
   try {
-    const crawler = new Crawler(lineConfig, dynamoConfig)
-    await crawler.crawle()
+    const webhook = new Webhook(lineConfig, dynamoConfig)
+    await webhook.webhook(ev.headers, ev.body)
   }
   catch (e)
   {

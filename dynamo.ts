@@ -1,5 +1,6 @@
 import AWS from 'aws-sdk'
 import { PromiseResult } from 'aws-sdk/lib/request'
+import * as util from './utils'
 import * as Types from './types'
 
 export default class Dynamo {
@@ -9,7 +10,7 @@ export default class Dynamo {
   public client: AWS.DynamoDB.DocumentClient
 
   constructor(options?: {[key: string]: any}) {    
-    this.dynamodb = new AWS.DynamoDB(options)
+    this.dynamodb = new AWS.DynamoDB((options && 'region' in options && 'endpoint' in options) ? options : undefined)
     this.client = new AWS.DynamoDB.DocumentClient(options)
   }
 
@@ -45,21 +46,13 @@ export default class Dynamo {
     }))
   }
 
-  public async load(items: Types.DynamoItems) {
-    const CHUNK_SIZE = 10
-
-    for (let i = 0; i < items.length; i += CHUNK_SIZE) {
-      const chunk = items.slice(i, i + CHUNK_SIZE)
-
-      console.log(`loading ... ${i + 1} to ${i + chunk.length} / ${items.length}`)
-
-      await Promise.all(chunk.map(v => {
-        return this.client.put({
+  public async load(items: Types.DynamoItems, chunkSize: number = 10, log: boolean = true) {
+    return util.chunkPromiseAll(items, (v: Types.DynamoItem) => {
+      return this.client.put({
           TableName: Dynamo.TABLE_NAME,
           Item: v
         }).promise()
-      }))
-    }
+    }, chunkSize, true)
   }
 
   public keyUser(userId: string) {

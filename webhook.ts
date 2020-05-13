@@ -81,11 +81,15 @@ export default class Webhook {
     const school = await this.dynamo.getSchool(schoolId)
 
     if (!this.dynamo.valid(school)) {
-      return this.line.sorryNoSchool(schoolId, ev.replyToken, ev.source.userId)
+      return this.line.sorryNoSchool(ev.replyToken, ev.source.userId)
+    }
+
+    if (!school.Item!.rss) {
+      return this.line.sorryNoRss(ev.replyToken, ev.source.userId)
     }
 
     const isFollowed = await this.dynamo.toggleSchoolByUser(ev.source.userId!, schoolId)
-    return this.line.toggleSchool(schoolId, isFollowed, ev.replyToken, ev.source.userId)
+    return this.line.toggleSchool(school.Item!.name, isFollowed, ev.replyToken, ev.source.userId)
   }
 
   public async unknown(ev: LineCore.WebhookEvent) {

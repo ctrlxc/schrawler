@@ -5,10 +5,7 @@ import { MessageAPIResponseBase } from '@line/bot-sdk'
 import schoolsJson from '../schools.json'
 
 describe('line', () => {
-  let line = new Line({
-    channelAccessToken: 'dummy-channelAccessToken',
-    channelSecret: 'dummy-channelSecret',
-  })
+  let line: Line | null = null
   
   beforeEach(function(){
     line = new Line({
@@ -18,10 +15,10 @@ describe('line', () => {
   })
 
   it('invalid message type', async () => {
-    const stub = sinon.stub(line, 'sorry')
+    const stub = sinon.stub(line!, 'sorry')
 
     try {
-      const schoolId = await line.getSchoolIdInMessage({
+      const schoolId = await line!.getSchoolIdInMessage({
         type: 'message',
         message: {
           id: 'dummy-id',
@@ -45,13 +42,13 @@ describe('line', () => {
   })
 
   it('invalid message school name', async () => {
-    const stub = sinon.stub(line, 'sorry')
+    const stub = sinon.stub(line!, 'sorry')
     stub.callsFake(async (_replayToken?: string, _userId?: string): Promise<MessageAPIResponseBase | undefined> => {
       return
     })
 
     try {
-      const schoolId = await line.getSchoolIdInMessage({
+      const schoolId = await line!.getSchoolIdInMessage({
         type: 'message',
         message: {
           id: 'dummy-id',
@@ -74,7 +71,7 @@ describe('line', () => {
   })
 
   it('valid message', async () => {
-    const schoolId = await line.getSchoolIdInMessage({
+    const schoolId = await line!.getSchoolIdInMessage({
       type: 'message',
       message: {
         id: 'dummy-id',
@@ -103,7 +100,7 @@ describe('line', () => {
         continue
       }
 
-      const schoolId = await line.getSchoolIdInMessage({
+      const schoolId = await line!.getSchoolIdInMessage({
         type: 'message',
         message: {
           id: 'dummy-id',
@@ -124,8 +121,8 @@ describe('line', () => {
   })
 
   it('notifyUpdated', async () => {
-    const messages = line.makeUpdateMessage([{
-      schoolId: 'クロマティ高',
+    const messages = line!.makeUpdateMessage([{
+      name: 'クロマティ高校',
       title: '#title#',
       snippet: '#snippet#',
       url: '#url#',

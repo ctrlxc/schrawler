@@ -16,6 +16,6 @@ describe('crawler', () => {
   
     const crawler = new Crawler(lineConfig, dynamoConfig)
 
-    crawler.crawle()
+    await crawler.crawle()
   })
 })

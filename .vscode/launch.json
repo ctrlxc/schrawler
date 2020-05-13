@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/initdynamo.js",
+            "program": "${workspaceFolder}/initDynamo.js",
             "env": {
                 "NODE_ENV": "development"
             }
