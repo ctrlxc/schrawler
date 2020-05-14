@@ -34,10 +34,14 @@ export default class Webhook {
   
     const reqBody: LineCore.WebhookRequestBody = JSON.parse(body)
 
-    return Promise.all(reqBody.events.map(async ev => this.one(ev)))
+    return Promise.all(reqBody.events.map(async ev => this.oneEvent(ev)))
   }
 
-  public async one(ev: LineCore.WebhookEvent) {
+  public async oneEvent(ev: LineCore.WebhookEvent) {
+    if (!ev.type) { // Line Validation Event
+      return
+    }
+
     if (!ev.source.userId) {
       if ('replyToken' in ev ) {
         return await this.line.sorry(ev.replyToken)
