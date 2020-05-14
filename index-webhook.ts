@@ -22,7 +22,7 @@ export const handler: Lambda.APIGatewayProxyHandler = async (ev: Lambda.APIGatew
     console.error(e)
 
     return {
-      statusCode: 200, // always 200
+      statusCode: 400,
       body: 'Error',
     }
   }
