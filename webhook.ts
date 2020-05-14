@@ -38,10 +38,6 @@ export default class Webhook {
   }
 
   public async oneEvent(ev: LineCore.WebhookEvent) {
-    if (!ev.type) { // Line Validation Event
-      return
-    }
-
     if (!ev.source.userId) {
       if ('replyToken' in ev ) {
         return await this.line.sorry(ev.replyToken)
