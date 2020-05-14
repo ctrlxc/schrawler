@@ -109,7 +109,7 @@ export default class Line {
 
       return {
         type: 'text',
-        text: `🏫${snapshot.name}\n⏰${updDate}\n📝${snapshot.title}\n${snapshot.snippet}\n\n${snapshot.url}`,
+        text: `🏫${snapshot.name}\n⏰${updDate}\n📝${snapshot.title}\n\n${snapshot.snippet}\n\n${snapshot.url}`,
       }
     })
   }
