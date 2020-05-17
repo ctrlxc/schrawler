@@ -2,6 +2,10 @@ import Dynamo from './dynamo'
 import Line from './line'
 import * as LineCore from '@line/bot-sdk'
 
+export type UnknownEvent = LineCore.WebhookEvent & {
+  replyToken?: string
+}
+
 export default class Webhook {
   public dynamo: Dynamo
   public line: Line
@@ -94,6 +98,7 @@ export default class Webhook {
 
   public async unknown(ev: LineCore.WebhookEvent) {
     console.log(`Unknown event: ${JSON.stringify(ev)}`)
-    return this.line.sorry(undefined, ev.source.userId)
+    const unknwon = <UnknownEvent>(ev)
+    return this.line.sorry(unknwon.replyToken, unknwon.source.userId)
   }
 }

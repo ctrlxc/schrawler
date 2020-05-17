@@ -20,5 +20,6 @@ export const handler: Lambda.ScheduledHandler = async (ev: Lambda.ScheduledEvent
   catch (e)
   {
     console.error(e)
+    throw e
   }
 }

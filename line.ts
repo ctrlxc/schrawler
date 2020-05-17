@@ -118,8 +118,8 @@ export default class Line {
     const users = utils.chunk(utils.toArray(userId), 500)
     const messages = utils.chunk(utils.toArray(message), 5)
 
-    return users.map(u => {
-      return messages.map(m => this.client.multicast(u, m))
-    })
+    return Promise.all(users.map(u => {
+      return Promise.all(messages.map(m => this.client.multicast(u, m)))
+    }))
   }
 }

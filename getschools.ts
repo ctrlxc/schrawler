@@ -46,7 +46,7 @@ const main = async () => {
 
       browser.close()
     } catch (err) {
-      console.log('[ERROR] ' + s.name + ': ' + err.message)
+      console.error('[ERROR] ' + s.name + ': ' + err.message)
     } finally {
       if (schools.length) {
         await work(schools.pop())

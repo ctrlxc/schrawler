@@ -129,6 +129,8 @@ export default class Crawler {
       const userId = followers!.Items!.map(v => v.sk.split('#')[1])
       const message = this.line.makeUpdateMessage(snapshots.items)
 
+      console.log(`notify followers: ${JSON.stringify({schoolId, userId, message})}`)
+      
       await this.line.pushMessage(userId, message)
     }
   }
