@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "tsc": "tsc",
-    "test": "mocha --require ts-node/register \"test/**/*.ts\""
+    "test": "mocha --require ts-node/register \"test/**/*.ts\" -t 0"
   },
   "dependencies": {
     "@line/bot-sdk": "^6.8.4",

@@ -1,22 +1,16 @@
 import { expect, assert } from 'chai'
 import * as sinon from 'sinon'
+import * as dotenv from 'dotenv'
 import * as utils from '../utils'
 import Webhook from '../webhook'
+
+dotenv.config()
 
 describe('webhook', () => {
   let webhook: Webhook | null = null
 
   beforeEach(function(){
-    webhook = new Webhook(
-      {
-        channelAccessToken: 'dummy-channelAccessToken',
-        channelSecret: 'dummy-channelSecret',
-      },
-      {
-        region: 'ap-northeast-1',
-        endpoint: 'http://localhost:8000',
-      }
-    )  
+    webhook = new Webhook(utils.lineConfig(), utils.dynamoConfig())
   })
 
   it('unknown - no replyToken', async () => {

@@ -1,18 +1,19 @@
 import { expect, assert } from 'chai'
 import * as sinon from 'sinon'
-import Line from '../line'
-import { MessageAPIResponseBase } from '@line/bot-sdk'
-import schoolsJson from '../schools.json'
 import * as LineCore from '@line/bot-sdk'
+import { MessageAPIResponseBase } from '@line/bot-sdk'
+import * as dotenv from 'dotenv'
+import schoolsJson from '../schools.json'
+import Line from '../line'
+import * as utils from '../utils'
+
+dotenv.config()
 
 describe('line', () => {
   let line: Line | null = null
   
   beforeEach(function(){
-    line = new Line({
-      channelAccessToken: 'dummy-channelAccessToken',
-      channelSecret: 'dummy-channelSecret',
-    })
+    line = new Line(utils.lineConfig())
   })
 
   it('invalid message type', async () => {

@@ -2,7 +2,7 @@ import * as dotenv from 'dotenv'
 import Crawler from './crawler'
 import * as utils from './utils'
 
-if (process.env.NODE_ENV == 'development') {
+if (process.env.NODE_ENV !== 'production') {
   dotenv.config()
 }
 

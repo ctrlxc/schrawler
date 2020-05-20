@@ -3,7 +3,7 @@ import * as dotenv from 'dotenv'
 import Webhook from './webhook'
 import * as utils from './utils'
 
-if (process.env.NODE_ENV == 'development') {
+if (process.env.NODE_ENV !== 'production') {
   dotenv.config()
 }
 

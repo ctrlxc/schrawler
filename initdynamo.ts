@@ -9,7 +9,7 @@ import * as utils from './utils'
 import * as Types from './types'
 import schoolsJson from './schools.json'
 
-if (process.env.NODE_ENV == 'development') {
+if (process.env.NODE_ENV !== 'production') {
   dotenv.config()
 }
 

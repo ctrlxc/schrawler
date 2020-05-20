@@ -1,15 +1,16 @@
 import { expect, assert } from 'chai'
 import * as sinon from 'sinon'
+import * as dotenv from 'dotenv'
 import Dynamo from '../dynamo'
+import * as utils from '../utils'
+
+dotenv.config()
 
 describe('dynamo', () => {
   let dynamo: Dynamo | null = null
 
   beforeEach(function(){
-    dynamo = new Dynamo({
-      region: 'ap-northeast-1',
-      endpoint: 'http://localhost:8000',
-    })  
+    dynamo = new Dynamo(utils.dynamoConfig())
   })
 
   it('follow / unfollow / follower', async () => {  
