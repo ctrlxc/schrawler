@@ -1,3 +1,8 @@
+/**
+ * [usage]
+ *   % node initDynamo.js init
+ *   % node initDynamo.js update url 
+ */
 import * as dotenv from 'dotenv'
 import Dynamo from './dynamo'
 import * as utils from './utils'
