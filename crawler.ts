@@ -1,23 +1,10 @@
-import Dynamo from './dynamo'
-import Line from './line'
-import * as utils from './utils'
 import RssParser from 'rss-parser'
 import * as LineCore from '@line/bot-sdk'
 import { DocumentClient } from 'aws-sdk/clients/dynamodb'
-import moment from 'moment'
-
-export interface Snapshot {
-  name: string
-  title: string
-  snippet: string
-  url: string
-  pubDate: number
-}
-
-export interface Snapshots {
-  lastUpdatedAt: number
-  items: Snapshot[]
-}
+import Dynamo from './dynamo'
+import Line from './line'
+import * as utils from './utils'
+import * as Types from './types'
 
 export default class Crawler {
   public dynamo: Dynamo
@@ -67,7 +54,7 @@ export default class Crawler {
       return false
     }
 
-    let snapshots: Snapshots = await this.snapshots(school)
+    let snapshots: Types.Snapshots = await this.snapshots(school)
 
     await this.dynamo.crawledSchool(schoolId, snapshots.lastUpdatedAt)
 
@@ -83,7 +70,7 @@ export default class Crawler {
     return true
   }
 
-  public async snapshots(school: DocumentClient.AttributeMap): Promise<Snapshots> {
+  public async snapshots(school: DocumentClient.AttributeMap): Promise<Types.Snapshots> {
     if (!school.rss) {
       throw new Error(`no rss: ${school.pk}}`)
     }
@@ -116,7 +103,7 @@ export default class Crawler {
     }
   }
 
-  public async notifyFollowers(schoolId: string, snapshots: Snapshots) {
+  public async notifyFollowers(schoolId: string, snapshots: Types.Snapshots) {
     let followers = undefined
 
     while (true) {

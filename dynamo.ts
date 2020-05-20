@@ -1,6 +1,6 @@
 import AWS from 'aws-sdk'
 import { PromiseResult } from 'aws-sdk/lib/request'
-import * as util from './utils'
+import * as utils from './utils'
 import * as Types from './types'
 
 export default class Dynamo {
@@ -47,7 +47,7 @@ export default class Dynamo {
   }
 
   public async load(items: Types.DynamoItems, chunkSize: number = 10, log: boolean = true) {
-    return util.chunkPromiseAll(items, (v: Types.DynamoItem) => {
+    return utils.chunkPromiseAll(items, (v: Types.DynamoItem) => {
       return this.client.put({
           TableName: Dynamo.TABLE_NAME,
           Item: v
