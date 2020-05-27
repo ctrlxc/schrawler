@@ -94,12 +94,20 @@ describe('line', () => {
 
   it('valid message real schools', async () => {
     for(let s of schoolsJson) {
-      if (/[(（／]/g.test(s.name)) {
-        continue
+      let name = s.name
+
+      let m = /^(.+)（(.+)）/g.exec(s.name)
+      if (m) {
+        name = m[1]
+      }
+
+      m = /小学校／中学校（(.+)）/g.exec(s.name)
+      if (m) {
+        name = m[1]
       }
 
       if (/(中|中学|小|小学)分$/g.test(s.schoolId)) {
-        continue
+        name = '大阪市立' + s.schoolId
       }
 
       const schoolId = await line!.getSchoolIdInMessage({
@@ -107,7 +115,7 @@ describe('line', () => {
         message: {
           id: 'dummy-id',
           type: 'text',
-          text: s.name
+          text: name
         },
         replyToken: 'dummy-replay-token',
         mode: 'active',
